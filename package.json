@@ -1,0 +1,19 @@
+{
+  "name": "techpacker",
+  "version": "1.0.0",
+  "description": "code interview answer",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon backend/server",
+    "start": "node backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Toesegun",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
